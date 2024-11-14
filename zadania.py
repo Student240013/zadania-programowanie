@@ -72,7 +72,6 @@ print("true != false wynosi", wynik)
 #3 zadanie
 
 #1
-# 25 int, True bool, 100 int, 4500000 int, jest ich lacznie 4
 company = "ABC Data"
 phone = "555-123-009"
 employees = 25
@@ -81,6 +80,9 @@ big_company = employees > 100
 income = 4500000
 income_per_person = income / employees
 print(income_per_person)
+# 7 zmiennych - company,    phone,    employees, remote_work, big_company, income, income_per_person
+# 7 wartosci - "ABC Data", "555-123-009", 25,     true,        false,      4500000,   180000.0
+#7 typow -      str             str       int     bool          bool         int        float
 
 #2
 number1 = 71
