@@ -4,12 +4,12 @@
 a = 5
 h = 4
 pole = 0.5 * a * h
-print("pole trójkąta wynosi:", pole)
+print("pole trojkata wynosi:", pole)
 
 #2
 numery = [7, 12, 31]
 średnia = sum(numery) / len(numery)
-print("średnia wynosi:", format(średnia, ".2f"))
+print("srednia wynosi:", format(średnia, ".2f"))
 
 # 2 zadanie
 
@@ -97,13 +97,13 @@ print('The result of summation:', result)
 x = 7
 y = 34
 z = 0 
-print("przed zmiana: x =", x, "y =", y)
+print("Before swapping: x=", x, "y=", y)
 
 z = x
 x = y
 y = z
 
-print("po zmianie: x =", x, "y =", y)
+print("After swapping: x=", x, "y=", y)
 
 #4
 speed_kmh = 70
@@ -161,7 +161,7 @@ mother_income = 4920
 family_members = 5
 total_income = father_income + mother_income
 income_per_person = total_income / family_members
-print("Cały przychód rodziny to",total_income, "i przychód na osobę to", income_per_person)
+print(f'Total family income is {total_income} and income per person is {income_per_person}')
 
 #3
 a = 3
